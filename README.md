@@ -8,8 +8,8 @@ Style a sidebar with a brand logo and menus on the left of the screen.
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-user-story)
 
 ## ➤ User Story
-1. The sidebar background color should be Electromagnetic color (HEX: #2f3640)
-2. The sidebar width is fixed in 250px and the height is full based on the screen size (viewport)
+1. The sidebar background color should be Electromagnetic color (HEX: <a style="color:#2f3640>#2f3640</a>)
+2. The sidebar width is fixed in <b>250px</b> and the height is full based on the screen size (viewport)
 3. The image width has to be fit with the sidebar width
 4. For each menu, use 0.5em for top & bottom margin and 1em for left & right margin
 5. Each menu will have 0.5em of padding
