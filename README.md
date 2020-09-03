@@ -1,11 +1,11 @@
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-description)
 
 ## ➤ Description
 Style a sidebar with a brand logo and menus on the left of the screen.  
 
 <img src="https://storage.googleapis.com/replit/images/1598871583753_3975a5ea00f7bbf38d8bb509cc37351f.png">
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#userstory)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-user-story)
 
 ## ➤ User Story
 1. The sidebar background color should be Electromagnetic color (HEX: #2f3640)
@@ -16,6 +16,7 @@ Style a sidebar with a brand logo and menus on the left of the screen.
 6. The menu text has to be bold
 7. When hovered, the link of the menu has a suttle black overlay on its background to separate the menu item from the background 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-hint)
 ## ➤ Hint: 
 ```md
 To make an element size full based on the screen size 
