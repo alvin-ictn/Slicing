@@ -1,23 +1,138 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="index.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="sidebar">
-      <img class="logo" src="https://nl.freelogodesign.org/Content/img/logo-colors-meanings/logos-oranges/logo-fld04.svg" />
-      <ul class="menu">
-        <li class="menu-item"><a href="#">Menu 1</a></li>
-        <li class="menu-item"><a href="#">Menu 2</a></li>
-        <li class="menu-item"><a href="#">Menu 3</a></li>
-        <li class="menu-item"><a href="#">Menu 4</a></li>
-        <li class="menu-item"><a href="#">Menu 5</a></li>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+</head>
+
+<body>
+  <aside>
+    <div class="logo">
+      <svg width="34" height="38" viewBox="0 0 34 38" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M4 16.5V28.75H9.25V16.5H4ZM14.5 16.5V28.75H19.75V16.5H14.5ZM0.5 37.5H33.75V32.25H0.5V37.5ZM25 16.5V28.75H30.25V16.5h35ZM17.125 0.75L0.5 9.5V13H33.75V9.5L17.125 0.75Z"
+          fill="white" />
+      </svg>
+      <label>Company Logo</label>
+    </div>
+    <div class="menu">
+      <ul>
+        <li class="active">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0 6.4771H5.33333V0.725464H0V6.4771ZM0 11.0784H5.33333V7.62742H0V11.0784ZM6.66667 11.0784H12V5.32677H6.66667V11.0784ZM6.66667 0.725464V4.17644H12V0.725464H6.66667Z"
+              fill="white" />
+          </svg>
+          <a>Home</a>
+        </li>
+        <li>
+          <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.3333 0.666656H1.66665C0.926646 0.666656 0.33998 1.25999 0.33998 1.99999L0.333313 9.99999C0.333313 10.74 0.926646 11.3333 1.66665 11.3333H12.3333C13.0733 11.3333 13.6666 10.74 13.6666 9.99999V1.99999C13.6666 1.25999 13.0733 0.666656 12.3333 0.666656ZM12.3333 9.99999H1.66665V5.99999H12.3333V9.99999ZM12.3333 3.33332H1.66665V1.99999H12.3333V3.33332Z"
+              fill="white" />
+          </svg>
+          <a>Payment</a>
+        </li>
+        <li>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M10.6667 0H1.33333C0.6 0 0 0.6 0 1.33333V10.6667C0 11.4 0.6 12 1.33333 12H10.6667C11.4 12 12 11.4 12 10.6667V1.33333C12 0.6 11.4 0 10.6667 0ZM4 9.33333h3.66667V4.66667H4V9.33333ZM6.66667 9.33333H5.33333V2.66667H6.66667V9.33333ZM9.33333 9.33333H8V6.66667H9.33333V9.33333Z"
+              fill="white" />
+          </svg>
+          <a>Analytics</a>
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.76 7.62404C11.784 7.42404 11.8 7.21604 11.8 7.00004C11.8 6.78404 11.784 6.57604 11.752 6.37604L13.104 5.32004C13.224 5.22404 13.256 5.04804 13.184 4.91204L11.904 2.69604C11.824 2.55204 11.656 2.50404 11.512 2.55204L9.92003 3.19204C9.58403 2.93604 9.23203 2.72804 8.84003 2.56804L8.60003 0.872037C8.57603 0.712037 8.44003 0.600037 8.28003 0.600037H5.72003C5.56003 0.600037 5.43203 0.712037 5.40803 0.872037L5.16803 2.56804C4.77603 2.72804 4.41603 2.94404 4.08803 3.19204L2.49603 2.55204C2.35203 2.49604 2.18403 2.55204 2.10403 2.69604L0.82403 4.91204C0.74403 5.05604 0.77603 5.22404 0.904031 5.32004L2.25603 6.37604C2.22403 6.57604 2.20003 6.79204 2.20003 7.00004C2.20003 7.20804 2.21603 7.42404 2.24803 7.62404L0.89603 8.68004C0.77603 8.77604 0.74403 8.95204 0.81603 9.08804L2.09603 11.304C2.17603 11.448 2.34403 11.496 2.48803 11.448L4.08003 10.808C4.41603 11.064 4.76803 11.272 5.16003 11.432L5.40003 13.128C5.43203 13.288 5.56003 13.4 5.72003 13.4H8.28003C8.44003 13.4 8.57603 13.288 8.59203 13.128L8.83203 11.432C9.22403 11.272 9.58403 11.056 9.91203 10.808L11.504 11.448C11.648 11.504 11.816 11.448 11.896 11.304L13.176 9.08804C13.256 8.94404 13.224 8.77604 13.096 8.68004L11.76 7.62404ZM7.00003 9.40004C5.68003 9.40004 4.60003 8.32004 4.60003 7.00004C4.60003 5.68004 5.68003 4.60004 7.00003 4.60004C8.32003 4.60004 9.40003 5.68004 9.40003 7.00004C9.40003 8.32004 8.32003 9.40004 7.00003 9.40004Z"
+              fill="white" />
+          </svg>
+          <a>Settings</a>
+        </li>
       </ul>
     </div>
-    <script src="index.js"></script>
-  </body>
+  </aside>
+  <main>
+    <nav>
+      <svg id="hamburger" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 8.5H12.75V7.08333H0V8.5ZM0 4.95833H12.75V3.54167H0V4.95833ZM0 0V1.41667H12.75V0H0Z"
+          fill="#2A2A2A" />
+      </svg>
+      <a>Halo, <strong>Joe</strong></a>
+    </nav>
+    <section class="content row top">
+      <div class="box col head">
+        <h3 class="top-title">Home</h3>
+        <p class="tagline">This is Home</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor neque, porttitor a auctor vel,
+          fringilla nec nisl. Pellentesque ut varius nisl, sed dapibus dui. Suspendisse ut est rutrum nunc egestas
+          ultrices a nec lorem.
+        </p>
+      </div>
+    </section>
+    <section class="content row bottom">
+      <div class="box col">
+        <h3>Content Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor neque, porttitor a auctor vel,
+          fringilla nec nisl. Pellentesque ut varius nisl, sed dapibus dui. Suspendisse ut est rutrum nunc egestas
+          ultrices a nec lorem. Phasellus a suscipit velit. Nulla eu orci justo. Cras eu felis pharetra, vestibulum quam
+          quis, pellentesque risus. Sed sit amet nisi ipsum. Quisque dignissim varius mauris nec iaculis. Donec congue
+          nisi id tincidunt finibus. Suspendisse laoreet, nisl sed dictum maximus, magna arcu pulvinar est, sit amet
+          posuere ligula nibh hendrerit est. Duis dictum nisl et odio ullamcorper, non vulputate dui lobortis. Integer
+          tempus finibus pretium.
+        </p>
+        <p>
+          Donec velit risus, fringilla ut quam nec, scelerisque molestie arcu. Nulla varius nibh non felis laoreet
+          ornare. Phasellus a nunc at neque tempus condimentum. Donec scelerisque quis sem quis convallis. Nulla id
+          elementum lacus. Nullam vestibulum laoreet ligula vitae aliquet. Sed eget libero sed felis ornare auctor at et
+          elit. Etiam feugiat velit id tristique sagittis.
+        </p>
+        <p>
+          Donec efficitur ligula massa, vel eleifend mi tempor quis. Duis tortor lorem, lacinia in accumsan eu,
+          imperdiet faucibus ipsum. Mauris ut eros non lectus pretium congue sollicitudin eu nisi. Nam ultricies turpis
+          dolor, ut tempor neque consectetur sit amet. Pellentesque in consectetur diam. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Sed consectetur commodo justo, eget sagittis mauris
+          aliquam ac. Nulla facilisi. Nunc ultricies vitae arcu sed euismod. Donec varius justo vitae arcu blandit,
+          vitae hendrerit ligula lacinia. Integer vel eros non odio mattis sagittis. Suspendisse in consequat enim.
+          Aenean facilisis orci felis, nec molestie purus sagittis sit amet
+        </p>
+      </div>
+      <div class="box col">
+        <h3>Content Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor neque, porttitor a auctor vel,
+          fringilla nec nisl. Pellentesque ut varius nisl, sed dapibus dui. Suspendisse ut est rutrum nunc egestas
+          ultrices a nec lorem. Phasellus a suscipit velit. Nulla eu orci justo. Cras eu felis pharetra, vestibulum quam
+          quis, pellentesque risus. Sed sit amet nisi ipsum. Quisque dignissim varius mauris nec iaculis. Donec congue
+          nisi id tincidunt finibus. Suspendisse laoreet, nisl sed dictum maximus, magna arcu pulvinar est, sit amet
+          posuere ligula nibh hendrerit est. Duis dictum nisl et odio ullamcorper, non vulputate dui lobortis. Integer
+          tempus finibus pretium.
+        </p>
+        <p>
+          Donec velit risus, fringilla ut quam nec, scelerisque molestie arcu. Nulla varius nibh non felis laoreet
+          ornare. Phasellus a nunc at neque tempus condimentum. Donec scelerisque quis sem quis convallis. Nulla id
+          elementum lacus. Nullam vestibulum laoreet ligula vitae aliquet. Sed eget libero sed felis ornare auctor at et
+          elit. Etiam feugiat velit id tristique sagittis.
+        </p>
+        <p>
+          Donec efficitur ligula massa, vel eleifend mi tempor quis. Duis tortor lorem, lacinia in accumsan eu,
+          imperdiet faucibus ipsum. Mauris ut eros non lectus pretium congue sollicitudin eu nisi. Nam ultricies turpis
+          dolor, ut tempor neque consectetur sit amet. Pellentesque in consectetur diam. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae; Sed consectetur commodo justo, eget sagittis mauris
+          aliquam ac. Nulla facilisi. Nunc ultricies vitae arcu sed euismod. Donec varius justo vitae arcu blandit,
+          vitae hendrerit ligula lacinia. Integer vel eros non odio mattis sagittis. Suspendisse in consequat enim.
+          Aenean facilisis orci felis, nec molestie purus sagittis sit amet
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>
