@@ -3,8 +3,6 @@
 ## ➤ Description
 Create a simple dashboard layout design from scratch with HTML & CSS.
 
-<img src="https://storage.googleapis.com/replit/images/1598871583753_3975a5ea00f7bbf38d8bb509cc37351f.png">
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-page-mock-up)
 
 ## ➤ Page Mock Up
