@@ -1,9 +1,9 @@
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-description)
+[![-----------------------](https://raw.githubusercontent.com/alvin-ictn/readme/master/assets/images/lines/colored.png)](#-description)
 
 ## ➤ Description
 Create a simple dashboard layout design from scratch with HTML & CSS.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-page-mock-up)
+[![-----------------------](https://raw.githubusercontent.com/alvin-ictn/readme/master/assets/images/lines/colored.png)](#-page-mock-up)
 
 ## ➤ Page Mock Up
 #### Home Page
@@ -15,7 +15,7 @@ Create a simple dashboard layout design from scratch with HTML & CSS.
 #### Analytics Page
 <img src="https://storage.googleapis.com/replit/images/1598874697997_9e5a75325412a62a616e28ef83401bdb.png">
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-user-story)
+[![-----------------------](https://raw.githubusercontent.com/alvin-ictn/readme/master/assets/images/lines/colored.png)](#-user-story)
 
 ## ➤ User Story
 1. You are allowed to use <b>any logo</b> that you want or use Font Awesome Icon
@@ -25,7 +25,7 @@ Create a simple dashboard layout design from scratch with HTML & CSS.
 5. The content has <b>1 card</b> above and <b>1 card</b> at the bottom
 6. The card on the bottom has <b>2 columns</b> layout with even width
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-color-pallete)
+[![-----------------------](https://raw.githubusercontent.com/alvin-ictn/readme/master/assets/images/lines/colored.png)](#-color-pallete)
 ## ➤ Color Pallete 
 
 ```html
@@ -36,7 +36,7 @@ Create a simple dashboard layout design from scratch with HTML & CSS.
 #2A2A2A text color
 ```
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-figma-url)
+[![-----------------------](https://raw.githubusercontent.com/alvin-ictn/readme/master/assets/images/lines/colored.png)](#-figma-url)
 ## ➤ Figma URL
 Figma URL:
 https://www.figma.com/file/zjoZGbtb2oFxMdeWZRZnT9/Dashboard-Office-Hours?node-id=0%3A1
